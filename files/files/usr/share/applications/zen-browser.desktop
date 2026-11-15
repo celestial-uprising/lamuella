@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Zen Browser
+Exec=/opt/zen/zen %u
+Icon=/usr/share/pixmaps/zen-browser.svg
+Type=Application
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/vnd.mozilla.xul+xml;x-scheme-handler/http;x-scheme-handler/https;
+StartupNotify=true
+StartupWMClass=zen
+Keywords=web;browser;internet;firefox;
