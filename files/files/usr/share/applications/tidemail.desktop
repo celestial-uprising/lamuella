@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=TideMail
-Exec=tidemail
-Icon=/usr/share/pixmaps/tidemail.png
-Terminal=true
-Categories=Network;Email;ConsoleOnly;
-Keywords=mail;email;imap;smtp;inbox;terminal;
