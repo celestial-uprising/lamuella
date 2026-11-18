@@ -30,12 +30,13 @@ stages:
             bash /tmp/golang.sh
             bash /tmp/tidemail.sh
             bash /tmp/corgi.sh
+            bash /tmp/pi-bolt.sh
 modules:
   - type: os-release
     properties:
       NAME: "Lamuella"
-      PRETTY_NAME: "Lamuella a03 by Celestial Uprising"
-      VERSION_CODENAME: "raspolotl"
+      PRETTY_NAME: "Lamuella a04 by Celestial Uprising"
+      VERSION_CODENAME: "birbs"
       ID_LIKE: fedora
       HOME_URL: "https://github.com/celestial-uprising/lamuella/"
       BUG_REPORT_URL: "https://github.com/celestial-uprising/lamuella/"
@@ -148,6 +149,15 @@ modules:
     from: builder
     src: /tmp/bin/
     dest: /usr/bin/
+  - type: copy
+    from: builder
+    src: /tmp/skel/
+    dest: /etc/skel/
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - VictorMono
+        - JetBrainsMono
   - type: files
     files:
       - source: extras/aoccv6/
@@ -155,10 +165,6 @@ modules:
   - type: script
     scripts:
       - aoccv6.sh
-  - type: fonts
-    fonts:
-      nerd-fonts:
-        - VictorMono
   - type: files
     files:
       - source: usr/lib/bash/libflyline
@@ -186,7 +192,6 @@ modules:
         - podman.socket
   - type: script
     scripts:
-      - pi-bolt.sh
       - annoyances.sh
       - regenerateinitramfs.sh
   - type: signing
