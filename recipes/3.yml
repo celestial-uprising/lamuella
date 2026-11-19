@@ -5,7 +5,7 @@ base-image: ghcr.io/celestial-uprising/lamuella-core
 image-version: latest
 stages:
   - name: builder
-    from: quay.io/fedora/fedora:rawhide
+    from: quay.io/fedora/fedora:44
     modules:
       - type: copy
         src: files/scripts/stage2/*
