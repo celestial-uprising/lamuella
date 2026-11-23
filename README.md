@@ -1,5 +1,9 @@
 # Celestial Uprising's Experimental Track &nbsp; [![bluebuild build badge](https://github.com/celestial-uprising/lalamatine/actions/workflows/build.yml/badge.svg)](https://github.com/celestial-uprising/lalamatine/actions/workflows/build.yml)
 
+# REPO TRANSITIONING AWAY FROM BLUEBUILD TO PURE CFILE WORKFLOW
+# NEW IMAGES WILL BE PUSHED VERY SOON
+# IMAGE UPDATES WILL BE REGULAR AND RELIABLE
+
 # *The only zone on Ursa Minor Beta where it is always early evening, built exclusively for nightclubs.*
 
 ## *Fedora-Bootc 44 w/ ZFS & NVIDIA* *AOCC v6* + *Lesbidoodle Rabbit Coven Magic* = *Lamuella*
